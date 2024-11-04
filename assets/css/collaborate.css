@@ -1,0 +1,76 @@
+/* Collaborate Styles */
+.collaborate-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.collaborate-header {
+    text-align: center;
+    background: linear-gradient(135deg, #007bff, #4a90e2);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.collaborate-header h1 {
+    font-size: 2rem;
+}
+
+.collaborate-main {
+    margin-top: 20px;
+}
+
+.new-collaboration {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.new-collaboration h2 {
+    margin-bottom: 15px;
+}
+
+.new-collaboration input,
+.new-collaboration textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.new-collaboration button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-collaboration button:hover {
+    background-color: #218838;
+}
+
+.collaboration-list {
+    margin-top: 20px;
+}
+
+.collaboration {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.collaboration-time {
+    font-size: 0.9rem;
+    color: #999;
+}

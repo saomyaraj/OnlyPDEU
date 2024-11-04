@@ -1,0 +1,77 @@
+.forum-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.forum-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forum-header h1 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.forum-header a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.forum-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.create-thread {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.create-thread form input,
+.create-thread form textarea,
+.create-thread form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.create-thread form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.threads .thread {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.threads .thread button.reply {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.threads .thread button.reply:hover {
+    background-color: #218838;
+}
