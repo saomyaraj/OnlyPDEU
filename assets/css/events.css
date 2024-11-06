@@ -8,24 +8,36 @@
 
 /* Header */
 .events-header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: linear-gradient(135deg, #007bff, #4a90e2);
     color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .events-header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin: 0;
 }
 
-/* Back link */
-.back-link {
+/* Back Button */
+.events-header .back-link {
+    background-color: #0056b3;
     color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
     text-decoration: none;
-    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.events-header .back-link:hover {
+    background-color: #004085;
 }
 
 /* Main Section */

@@ -1,0 +1,76 @@
+/* Feedback Styles */
+.feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #007bff, #4a90e2);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.forum-header a {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.forum-header a:hover {
+    background-color: #004085;
+}
+
+/* Main Section */
+.feedback-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback-main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-main input[type="text"],
+.feedback-main textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.feedback-main button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-main button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}

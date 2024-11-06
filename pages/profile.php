@@ -84,14 +84,14 @@ $current_full_name = $_SESSION['full_name'] ?? 'User';
 <body>
     <div class="profile-container">
         <header class="profile-header">
-            <h1>Welcome to Your Profile, <?php echo htmlspecialchars($current_full_name); ?></h1>
+            <h1>Welcome to Your Profile</h1>
             <a href="dashboard.php">Back to Dashboard</a>
         </header>
 
         <main class="profile-main">
             <section class="profile-card">
-                <img src="../assets/images/profile-placeholder.png" alt="Profile Picture" class="profile-picture">
-                <h2><?php echo htmlspecialchars($current_email); ?></h2>
+                <img src="../images/profile-placeholder.png" alt="Profile Picture" class="profile-picture">
+                <h2><?php echo htmlspecialchars($current_full_name); ?></h2>
                 <p><strong>Email:</strong> <?php echo htmlspecialchars($current_email); ?></p>
                 <p><strong>Joined:</strong> January 2024</p>
                 <?php if ($message): ?>

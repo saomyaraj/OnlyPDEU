@@ -46,9 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="collaborate-container">
         <header class="collaborate-header">
             <h1>Collaborate on Projects</h1>
-            <form action="dashboard.php" method="get">
-                <button type="submit">Back to Dashboard</button>
-            </form>
+            <a href="dashboard.php">Back to Dashboard</a>
         </header>
 
         <main class="collaborate-main">
